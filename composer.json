@@ -1,0 +1,15 @@
+{
+    "name": "surl/url-shortener",
+    "autoload": {
+        "psr-4": {
+            "UrlShortener\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohi Uddin Ahmed",
+            "email": "akankha.ahmed@gmail.com"
+        }
+    ],
+    "require": {}
+}

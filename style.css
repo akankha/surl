@@ -1,0 +1,120 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin: 40px;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    width: 75%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #449d44;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 10px;
+}
+
+th {
+    background-color: #f8f8f8;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.pagination {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.pagination a {
+    color: #333;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.pagination a.active,
+.pagination a:hover {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.alert {
+    padding: 15px;
+    background-color: #f44336;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.alert-success {
+    background-color: #4CAF50;
+}
+
+.alert a {
+    color: white;
+    text-decoration: underline;
+}
+
+.alert a:hover {
+    color: #ccc;
+}
